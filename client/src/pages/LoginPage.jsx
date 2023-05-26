@@ -22,8 +22,8 @@ export default function LoginPage() {
 				alert('Please fill all the fields above')
 			}
 		} catch (e) {
-console.log(e.response.data)
-			alert(e.response.data)
+console.log(e)
+			alert(e)
 		}
 	}
 
